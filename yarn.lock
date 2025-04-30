@@ -3944,6 +3944,11 @@ mocked-exports@^0.1.1:
   resolved "https://registry.yarnpkg.com/mocked-exports/-/mocked-exports-0.1.1.tgz#6916efea9a9dd0f4abd6a0a72526f56a76c966ea"
   integrity sha512-aF7yRQr/Q0O2/4pIXm6PZ5G+jAd7QS4Yu8m+WEeEHGnbo+7mE36CbLSDQiXYV8bVL3NfmdeqPJct0tUlnjVSnA==
 
+modern-css-reset@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/modern-css-reset/-/modern-css-reset-1.4.0.tgz#5bee4d11eeca2ff19b882c6e8f1769773e792d04"
+  integrity sha512-0crZmSFmrxkI7159rvQWjpDhy0u4+Awg/iOycJdlVn0RSeft/a+6BrQHR3IqvmdK25sqt0o6Z5Ap7cWgUee2rw==
+
 module-definition@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/module-definition/-/module-definition-5.0.1.tgz#62d1194e5d5ea6176b7dc7730f818f466aefa32f"
