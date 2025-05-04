@@ -1,0 +1,17 @@
+.Footer {
+  background-color: #f8f9fa;
+  padding: 24px 0;
+
+  &__Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  &__Copyright {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+  }
+}
