@@ -1,6 +1,10 @@
 <template>
   <div class="Article">
-    <h2 class="Article__Title">{{ item.title }}</h2>
+    <h2 class="Article__Title">
+      <NuxtLink :to="item.url" target="_blank" class="Article__TitleLink">{{
+        item.title
+      }}</NuxtLink>
+    </h2>
     <div class="Article__Meta">
       <span>
         <svg
