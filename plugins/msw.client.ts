@@ -1,5 +1,4 @@
 import { worker } from "~/mocks/browser";
-import { handlers } from "~/mocks/handlers";
 
 export default defineNuxtPlugin(() => {
   // 開発環境かどうかをチェック
