@@ -1,10 +1,11 @@
 .Article {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
+  margin-top: 0;
+  padding: 24px;
   border-radius: 12px;
   background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
 
   &:hover {
     transform: translateY(-2px);
@@ -14,58 +15,61 @@
   &__Title {
     margin-top: 0;
     color: #2c3e50;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 600;
   }
 
   &__Meta {
     display: flex;
-    gap: 1.2rem;
-    font-size: 0.9rem;
+    gap: 19px;
+    font-size: 14px;
     color: #7b8a9a;
-    margin-bottom: 0.8rem;
+    margin-top: 13px;
     align-items: center;
 
     span {
       display: flex;
       align-items: center;
+    }
 
-      &.likes {
-        color: #e74c3c;
-      }
+    &-Likes {
+      color: #e74c3c;
+    }
 
-      &.stocks {
-        color: #3498db;
-      }
+    &-Stocks {
+      color: #3498db;
+    }
 
-      svg {
-        margin-right: 0.4rem;
-      }
+    svg {
+      margin-left: 0;
+      margin-top: 0;
+      margin-right: 6px;
     }
   }
 
   &__Summary {
     color: #4a5568;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-top: 16px;
   }
 
   &__Tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.6rem;
-    margin: 1.2rem 0;
+    gap: 10px;
+    margin-top: 19px;
   }
 
   &__Link {
     display: inline-block;
-    padding: 0.6rem 1.2rem;
+    padding: 10px 19px;
     background-color: #3b82f6;
     color: white;
     text-decoration: none;
     border-radius: 6px;
     font-weight: 500;
     transition: background-color 0.2s ease;
+    margin-top: 19px;
 
     &:hover {
       background-color: #2563eb;

@@ -21,7 +21,7 @@
         </svg>
         {{ formatDate(item.created_at) }}
       </span>
-      <span class="likes">
+      <span class="Article__Meta-Likes">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -39,7 +39,7 @@
         </svg>
         {{ item.likes_count }}
       </span>
-      <span class="stocks">
+      <span class="Article__Meta-Stocks">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

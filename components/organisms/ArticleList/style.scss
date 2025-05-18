@@ -1,3 +1,22 @@
-.Articles {
-  list-style: none;
+.ArticleList {
+  &__Items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__Item {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__Empty {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-size: 16px;
+  }
 }
