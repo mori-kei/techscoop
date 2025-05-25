@@ -10,9 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "debug": "^4.4.0",
+    "lodash": "^4.17.21",
+    "modern-css-reset": "^1.4.0",
     "nuxt": "^3.17.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@types/lodash": "^4.17.16",
+    "msw": "^2.7.5",
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
 }

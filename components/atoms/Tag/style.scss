@@ -1,0 +1,15 @@
+.Tag {
+  padding: 0.25rem 0.5rem;
+  background-color: #e1e4e8;
+  border-radius: 4px;
+  font-size: 0.8rem;
+
+  &--clickable {
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #d1d5da;
+    }
+  }
+}

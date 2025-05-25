@@ -1,0 +1,46 @@
+.Article {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  &__Title {
+    margin-top: 0;
+    color: #333;
+  }
+
+  &__Meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+
+  &__Summary {
+    color: #444;
+    line-height: 1.5;
+  }
+
+  &__Tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+
+  &__Link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0366d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+
+    &:hover {
+      background-color: #0256b3;
+    }
+  }
+}
