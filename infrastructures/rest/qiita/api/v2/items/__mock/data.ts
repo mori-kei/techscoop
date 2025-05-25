@@ -15,16 +15,16 @@ export const mockQiitaItems: QiitaItemResponse[] = [
     url: "https://qiita.com/sample/items/1",
     tags: [
       { name: "Vue.js", versions: ["3.x"] },
-      { name: "TypeScript", versions: ["4.x"] }
+      { name: "TypeScript", versions: ["4.x"] },
     ],
     user: {
       id: "user1",
       name: "サンプルユーザー1",
-      profile_image_url: "https://avatars.githubusercontent.com/u/12345?v=4"
+      profile_image_url: "https://avatars.githubusercontent.com/u/12345?v=4",
     },
     coediting: false,
     private: false,
-    rendered_body: "<p>Vue3とTypeScript...</p>"
+    rendered_body: "<p>Vue3とTypeScript...</p>",
   },
   {
     id: "2",
@@ -39,16 +39,16 @@ export const mockQiitaItems: QiitaItemResponse[] = [
     url: "https://qiita.com/sample/items/2",
     tags: [
       { name: "Nuxt.js", versions: ["3.x"] },
-      { name: "Vue.js", versions: ["3.x"] }
+      { name: "Vue.js", versions: ["3.x"] },
     ],
     user: {
       id: "user2",
       name: "サンプルユーザー2",
-      profile_image_url: "https://avatars.githubusercontent.com/u/67890?v=4"
+      profile_image_url: "https://avatars.githubusercontent.com/u/67890?v=4",
     },
     coediting: false,
     private: false,
-    rendered_body: "<p>Nuxt3は...</p>"
+    rendered_body: "<p>Nuxt3は...</p>",
   },
   {
     id: "3",
@@ -64,15 +64,90 @@ export const mockQiitaItems: QiitaItemResponse[] = [
     tags: [
       { name: "CSS", versions: [] },
       { name: "Tailwind CSS", versions: [] },
-      { name: "フロントエンド", versions: [] }
+      { name: "フロントエンド", versions: [] },
     ],
     user: {
       id: "user3",
       name: "サンプルユーザー3",
-      profile_image_url: "https://avatars.githubusercontent.com/u/54321?v=4"
+      profile_image_url: "https://avatars.githubusercontent.com/u/54321?v=4",
     },
     coediting: false,
     private: false,
-    rendered_body: "<p>CSSの管理は...</p>"
-  }
+    rendered_body: "<p>CSSの管理は...</p>",
+  },
+  {
+    id: "4",
+    title: "React NativeとExpoではじめるクロスプラットフォーム開発",
+    body: "React NativeとExpoを使うことで、iOSとAndroidの両方に対応したモバイルアプリを効率的に開発できます。このガイドでは環境構築からデプロイまで徹底解説します。",
+    created_at: "2023-08-12T11:20:00+09:00",
+    updated_at: "2023-08-15T09:30:00+09:00",
+    likes_count: 87,
+    reactions_count: 22,
+    stocks_count: 63,
+    comments_count: 7,
+    url: "https://qiita.com/sample/items/4",
+    tags: [
+      { name: "React Native", versions: [] },
+      { name: "Expo", versions: [] },
+      { name: "モバイルアプリ", versions: [] },
+    ],
+    user: {
+      id: "user4",
+      name: "サンプルユーザー4",
+      profile_image_url: "https://avatars.githubusercontent.com/u/13579?v=4",
+    },
+    coediting: false,
+    private: false,
+    rendered_body: "<p>React NativeとExpoを使うことで...</p>",
+  },
+  {
+    id: "5",
+    title: "GraphQLとRestの比較：モダンAPIの選択ガイド",
+    body: "バックエンドAPIの設計においてGraphQLとRESTは現在の二大勢力です。このポストでは両者の詳細な比較と、プロジェクトに応じた最適な選択方法を紹介します。",
+    created_at: "2023-09-24T16:45:00+09:00",
+    updated_at: "2023-09-28T14:10:00+09:00",
+    likes_count: 142,
+    reactions_count: 35,
+    stocks_count: 95,
+    comments_count: 18,
+    url: "https://qiita.com/sample/items/5",
+    tags: [
+      { name: "GraphQL", versions: [] },
+      { name: "REST API", versions: [] },
+      { name: "バックエンド", versions: [] },
+    ],
+    user: {
+      id: "user5",
+      name: "サンプルユーザー5",
+      profile_image_url: "https://avatars.githubusercontent.com/u/24680?v=4",
+    },
+    coediting: false,
+    private: false,
+    rendered_body: "<p>バックエンドAPIの設計において...</p>",
+  },
+  {
+    id: "6",
+    title: "Next.jsとFirebaseで作るJamstackアプリケーション",
+    body: "Next.jsとFirebaseの組み合わせは、高速でスケーラブルなWebアプリケーションを構築するための強力なスタックです。このチュートリアルでは認証からデータベース連携まで実装します。",
+    created_at: "2023-11-05T08:25:00+09:00",
+    updated_at: "2023-11-10T17:40:00+09:00",
+    likes_count: 113,
+    reactions_count: 28,
+    stocks_count: 77,
+    comments_count: 9,
+    url: "https://qiita.com/sample/items/6",
+    tags: [
+      { name: "Next.js", versions: [] },
+      { name: "Firebase", versions: [] },
+      { name: "Jamstack", versions: [] },
+    ],
+    user: {
+      id: "user6",
+      name: "サンプルユーザー6",
+      profile_image_url: "https://avatars.githubusercontent.com/u/35791?v=4",
+    },
+    coediting: false,
+    private: false,
+    rendered_body: "<p>Next.jsとFirebaseの組み合わせは...</p>",
+  },
 ];
