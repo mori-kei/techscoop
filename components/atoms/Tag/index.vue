@@ -1,7 +1,7 @@
 <template>
   <span
     class="Tag"
-    :class="{ 'Tag--clickable': clickable }"
+    :class="{ 'Tag--Clickable': clickable }"
     @click="handleClick"
   >
     {{ props.display }}

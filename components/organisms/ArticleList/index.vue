@@ -1,11 +1,11 @@
 <template>
   <div class="ArticleList">
-    <ul v-if="qiitaItems && qiitaItems.length > 0" class="Articles">
+    <ul v-if="qiitaItems && qiitaItems.length > 0" class="ArticleList__Items">
       <li v-for="item in qiitaItems" :key="item.id" class="ArticleList__Item">
         <ArticleCard :item="item" />
       </li>
     </ul>
-    <div v-else class="Empty">記事が見つかりませんでした</div>
+    <div v-else class="ArticleList__Empty">記事が見つかりませんでした</div>
   </div>
 </template>
 
