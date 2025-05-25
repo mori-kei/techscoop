@@ -1,4 +1,5 @@
-import { isNull, isUndefined } from "lodash";
+import isNull from "lodash-es/isNull";
+import isUndefined from "lodash-es/isUndefined";
 import type { ApiState } from "./types";
 import { getQiitaItems } from "@/infrastructures/rest/qiita/api/v2/items";
 import type {
