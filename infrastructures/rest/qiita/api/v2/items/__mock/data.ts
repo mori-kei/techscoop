@@ -140,6 +140,9 @@ export const mockQiitaItems: QiitaItemResponse[] = [
       { name: "Next.js", versions: [] },
       { name: "Firebase", versions: [] },
       { name: "Jamstack", versions: [] },
+      { name: "Jamstack", versions: [] },
+      { name: "Jamstack", versions: [] },
+      { name: "Jamstack", versions: [] },
     ],
     user: {
       id: "user6",
