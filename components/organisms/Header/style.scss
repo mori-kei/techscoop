@@ -20,18 +20,18 @@
   }
 
   &__Nav {
-    &-List {
+    &__NavList {
       display: flex;
       list-style: none;
       margin: 0;
       padding: 0;
     }
 
-    &-Item {
+    &__NavItem {
       margin-left: 24px;
     }
 
-    &-Link {
+    &__NavLink {
       color: #333;
       text-decoration: none;
       font-weight: 500;

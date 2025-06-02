@@ -4,9 +4,9 @@
       <div class="Header__Logo"></div>
       <h1 class="Header__Title">{{ HEADER_TITLE }}</h1>
       <nav class="Header__Nav">
-        <ul class="Header__Nav-List">
-          <li v-for="item in NAV_ITEMS" :key="item.to" class="Header__Nav-Item">
-            <NuxtLink :to="item.to" class="Header__Nav-Link">{{
+        <ul class="Header__NavList">
+          <li v-for="item in NAV_ITEMS" :key="item.to" class="Header__NavItem">
+            <NuxtLink :to="item.to" class="Header__NavLink">{{
               item.text
             }}</NuxtLink>
           </li>
