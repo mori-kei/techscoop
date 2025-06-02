@@ -19,26 +19,24 @@
     flex-grow: 1;
   }
 
-  &__Nav {
-    &__NavList {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
+  &__NavList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-    &__NavItem {
-      margin-left: 24px;
-    }
+  &__NavItem {
+    margin-left: 24px;
+  }
 
-    &__NavLink {
-      color: #333;
-      text-decoration: none;
-      font-weight: 500;
+  &__NavLink {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
 
-      &:hover {
-        color: #0366d6;
-      }
+    &:hover {
+      color: #0366d6;
     }
   }
 }
